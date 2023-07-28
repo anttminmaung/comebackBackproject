@@ -1,71 +1,16 @@
-let MenuBar = document.querySelector('#meunuBar');
-// console.log(MenuBar)
-let NavSelction = document.querySelector('.navselection');
-// console.log(NavSelction)
-let search = document.querySelector('#Search');
-console.log(search)
-let searchform = document.querySelector('.searchform');
-console.log(searchform)
-let close = document.querySelector('.close');
-console.log(close)
+// scroll revel 
 
-function menuBar(){
-      MenuBar.classList.toggle('fa-times');
-      NavSelction.classList.toggle('Active');
-}
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '50px',
+    duration: 1000,
+easing:'ease-in-out',
+    reset: true,
+    interval:500
+})
 
-window.onscroll = () => {
-      MenuBar.classList.remove('fa-times');
-      NavSelction.classList.remove('Active');
-}
-
-document.querySelector('#Search').onclick = () =>{
-      searchform.classList.toggle('ctive');
-      
-}
-
-document.querySelector('.close').onclick = () =>{
-      searchform.classList.remove('ctive');
-
-}
-
-var swiper = new Swiper(".home", {
-      spaceBetween: 30,
-      centeredSlides: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      loop:true,
-    });
-
-
-var swiper = new Swiper(".mySwiper", {
-  spaceBetween: 20,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  loop:true,
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-    },
-    640: {
-      slidesPerView: 2,
-    },
-    768: {
-      slidesPerView: 2,
-    },
-    1024: {
-      slidesPerView: 3,
-    },
-
-  },
-});
-
-
+sr.reveal('.homesecitonTwo',{delay:200});
+sr.reveal('.homesectionOne',{delay:230});
+sr.reveal('.containerBox1',{delay:250});
+sr.reveal('.aboutSection1',{delay:280});
+sr.reveal('.customersreview',{delay:300});

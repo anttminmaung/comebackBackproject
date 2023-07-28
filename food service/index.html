@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Service</title>
+    <!-- fontawesome link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- swipper js -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+   <!-- custom css  -->
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+<!-- header section  -->
+    <!-- nav bar  -->
+    <div class="Navbar">
+        <div class="logosection">
+          <a href="#" class="LOGO"><i class="fas fa-utensils"></i>resto.</a>
+            <!-- <a href="#" class="LOGO"><i class="fas-fa-untensils">food</i>resto.</a> -->
+         </div>
+     
+          <nav class="navselection" onclick="menuBar()">
+             <a href="#Home" class="active">Home</a>
+             <a href="#Dishes">Dishes</a>
+             <a href="#About">About</a>
+             <a href="#Menu">Menu</a>
+            <a href="#Review">Review</a>
+            <a href="#Order">Order</a>
+          </nav>
+     
+          <div class="googleFont">
+             <i class="fas fa-bars menubar" id="meunuBar" onclick="menuBar()" ></i>
+             <i class="fas fa-search" id="Search"></i>
+             <i class="fas fa-heart"></i>
+             <i class="fas fa-shopping-cart"></i>
+          </div>
+    </div>
+     <!-- nav bar  -->
+<!-- header section  -->
+<!-- search form -->
+<form class="searchform ">
+<input class="form" id="formlink" placeholder="search here....">
+<label class="fas fa-search" id="searchIcon"></label>
+<i class="fas fa-close close" id="close"></i>
+</form>
+<!-- search form -->
+
+<!-- home section  -->
+<section id="Home">
+    <div class="swiper home">
+
+          <div class="swiper-wrapper slider">
+            <!-- for slide 1  -->
+               <div class="swiper-slide slide">
+                 <div class="content">
+                  <p class="title">Our Special Dishes</p>
+                  <p class="title2">Pizza</p>
+                  <p class="title3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <a href="#" class="btn">Order Now</a>
+                 </div>
+
+                 <div class="imagesection">
+                  <img src="https://img.freepik.com/premium-photo/delicious-classic-italian-pizza-with-mozzarella_79762-2652.jpg?w=1060">
+                 </div>
+               </div>
+            <!-- for slide 1  -->
+
+            <!-- for slide 2  -->
+            <div class="swiper-slide slide">
+              <div class="content content2">
+               <p class="title">Our Special Dishes</p>
+               <p class="title2">Spicy Noodle</p>
+               <p class="title3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+               <a href="#" class="btn">Order Now</a>
+              </div>
+
+              <div class="imagesection imagesection2">
+               <img src="https://img.freepik.com/premium-photo/noodle-soup-pork-isolated-white-background_87977-11.jpg?w=740">
+              </div>
+            </div>
+         <!-- for slide 2  -->
+
+
+         <!-- for slide 3  -->
+         <div class="swiper-slide slide">
+          <div class="content content3">
+           <p class="title">Our Special Dishes</p>
+           <p class="title2">Spicy Kitchen</p>
+           <p class="title3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           <a href="#" class="btn">Order Now</a>
+          </div>
+
+          <div class="imagesection">
+           <img src="https://img.freepik.com/free-photo/delicious-fried-chicken-plate_144627-27383.jpg?w=1060&t=st=1688990163~exp=1688990763~hmac=f4bdbe38baf2c0f2a6159d8288ef9b8bc57f8fccd23df9d696f8a499a46191f5">
+          </div>
+        </div>
+     <!-- for slide 3  -->
+            
+          </div>
+    </div>
+</section>
+
+<!-- home section  -->
+
+<!-- dishes section  -->
+<section id="Dishes">
+<div class="Dishes">
+  <h3 class="tittles h3">Our Dishes</h3>
+  <h1 class="tittles h1">POPULAR DISHES</h1>
+  
+  <div class="dishesitems">
+    <!-- for 1  -->
+    <div class="dishesitem">
+      <div class="dishesicon">
+        <i class="fa-solid fa-eye"></i>
+        <i class="fa-solid fa-heart"></i>
+  
+        
+      </div>
+  
+      <div class="dishesinfo">
+        <img src="https://img.freepik.com/free-photo/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese_90220-1063.jpg?w=740&t=st=1689337175~exp=1689337775~hmac=7eae72ae6e40e518c8970b190510ce6239cd80e952c9879b8043472a51097941">
+        <p class="dishesname">Tasty Food</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <div class="priceinfo"><span>$15.99</span><a href="#">Add to cart</a></div>
+      </div>
+    </div>
+    <!-- for 1  -->
+
+     <!-- for 2  -->
+     <div class="dishesitem">
+      <div class="dishesicon">
+        <i class="fa-solid fa-eye"></i>
+        <i class="fa-solid fa-heart"></i>
+  
+        
+      </div>
+  
+      <div class="dishesinfo">
+        <img src="https://img.freepik.com/premium-photo/stir-fried-shanghai-noodle-with-pork_1339-26859.jpg">
+        <p class="dishesname">Tasty Food</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <div class="priceinfo"><span>$15.99</span><a href="#">Add to cart</a></div>
+      </div>
+    </div>
+    <!-- for 2  -->
+
+     <!-- for 3  -->
+     <div class="dishesitem">
+      <div class="dishesicon">
+        <i class="fa-solid fa-eye"></i>
+        <i class="fa-solid fa-heart"></i>
+  
+        
+      </div>
+  
+      <div class="dishesinfo">
+        <img src="https://img.freepik.com/premium-photo/indian-street-food-dabeli_57665-3668.jpg">
+        <p class="dishesname">Tasty Food</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <div class="priceinfo"><span>$15.99</span><a href="#">Add to cart</a></div>
+      </div>
+    </div>
+    <!-- for 3  -->
+    
+    <!-- for 4  -->
+    <div class="dishesitem">
+      <div class="dishesicon">
+        <i class="fa-solid fa-eye"></i>
+        <i class="fa-solid fa-heart"></i>
+  
+        
+      </div>
+  
+      <div class="dishesinfo">
+        <img src="https://img.freepik.com/premium-photo/sev-is-popular-indian-snack-food_55610-1011.jpg">
+        <p class="dishesname">Tasty Food</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <div class="priceinfo"><span>$15.99</span><a href="#">Add to cart</a></div>
+      </div>
+    </div>
+
+    <!-- for 4 -->
+
+    <!-- for 5  -->
+    <div class="dishesitem">
+      <div class="dishesicon">
+        <i class="fa-solid fa-eye"></i>
+        <i class="fa-solid fa-heart"></i>
+  
+        
+      </div>
+  
+      <div class="dishesinfo">
+        <img src="https://img.freepik.com/free-photo/penne-pasta_1339-339.jpg?t=st=1689418020~exp=1689418620~hmac=8060926206ea5df234be53264c911373842ed8fbe66d74397ef9376a3f882e21">
+        <p class="dishesname">Tasty Food</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <div class="priceinfo"><span>$15.99</span><a href="#">Add to cart</a></div>
+      </div>
+    </div>
+    <!-- for 5  -->
+
+    <!-- for 6  -->
+    <div class="dishesitem">
+      <div class="dishesicon">
+        <i class="fa-solid fa-eye"></i>
+        <i class="fa-solid fa-heart"></i>
+  
+        
+      </div>
+  
+      <div class="dishesinfo">
+        <img src="https://img.freepik.com/premium-photo/thai-food-fried-pork-vegetable-white-background_62856-1281.jpg?w=1060">
+        <p class="dishesname">Tasty Food</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <div class="priceinfo"><span>$15.99</span><a href="#">Add to cart</a></div>
+      </div>
+    </div>
+    <!-- for 6  -->
+
+  </div>
+</div>
+</section>
+
+
+<!-- dishes section  -->
+
+<!-- about us  -->
+<section id="About"> 
+  <div class="Dishes">
+    <h3 class="tittles h3">About Us</h3>
+    <h1 class="tittles h1">WHY CHOOSE US?</h1>
+
+    <div class="about">
+      <img src="https://img.freepik.com/premium-photo/baked-chicken-festive-dinner_392895-8347.jpg"/>
+      <div class="passage">
+      <h2>Best Food In The Country</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident inventore eum vitae, aliquam fugit quam modi esse eius sit? Ea error molestiae nemo ducimus ad aperiam nesciunt itaque asperiores pariatur!</p>
+      <div class="icons">
+        <i class="fa-solid fa-dollar-sign"><span>Free Delivery</span></i>
+        <i class="fa-solid fa-dollar-sign"><span>Easy Payments</span></i>
+        <i class="fa-regular fa-hourglass-half"><span>24/7 Service</span></i>
+      </div>
+      <a class="btn">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- about us  -->
+<!-- menu section  -->
+<section id="Menu">
+  <div class="Dishes">
+    <h3 class="tittles h3">Our Menu</h3>
+    <h1 class="tittles h1">TODAY'S SPECIAL</h1>
+    
+   <div class="menuitem">
+      <!-- for 1  -->
+    <div class="Menuitems">
+      <div class="Menuinfo">
+        <i class="fa-solid fa-eye"></i>
+        <img src="https://img.freepik.com/free-photo/juicy-pork-steak-with-rosemary-tomatoes-white-plate_2829-7842.jpg?t=st=1689418539~exp=1689419139~hmac=566a898c4f3907030a8dfc2ff446a0f394287e0374231a31fcd599edd6583837">
+    
+        <div class="content">
+         <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+        <p class="Menuname">Delicious Food</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, culpa numquam, consectetur
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, culpa numquam, consectetur </p>
+        <div class="priceinfo"><a href="#">Add to cart</a><span>$15.99</span></div>
+      </div>
+    </div>
+    <!-- for 1  -->
+
+    <!-- for 2 -->
+    <div class="Menuitems">
+      <div class="Menuinfo">
+        <i class="fa-solid fa-eye"></i>
+        <img src="https://img.freepik.com/free-photo/spicy-raw-crabs-meat-seafood_74190-7626.jpg?size=626&ext=jpg">
+    
+        <div class="content">
+         <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+        <p class="Menuname">Delicious Food</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, culpa numquam, consectetur
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, culpa numquam, consectetur </p>
+        <div class="priceinfo"><a href="#">Add to cart</a><span>$15.99</span></div>
+      </div>
+    </div>
+    <!-- for 2  -->
+
+    <!-- for 3  -->
+    <div class="Menuitems">
+      <div class="Menuinfo">
+        <i class="fa-solid fa-eye"></i>
+        <img src="https://img.freepik.com/premium-photo/meat-kebab-ribs-lavash-with-onions-cabbage-white-plate-isolated-white-background_217593-15671.jpg?size=626&ext=jpg">
+    
+        <div class="content">
+         <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+        <p class="Menuname">Delicious Food</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, culpa numquam, consectetur
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, culpa numquam, consectetur </p>
+        <div class="priceinfo"><a href="#">Add to cart</a><span>$15.99</span></div>
+      </div>
+    </div>
+    <!-- for 3  -->
+
+     <!-- for 4  -->
+     <div class="Menuitems">
+      <div class="Menuinfo">
+        <i class="fa-solid fa-eye"></i>
+        <img src="https://img.freepik.com/free-photo/spicy-raw-crabs-meat-seafood_74190-7626.jpg?size=626&ext=jpg">
+    
+        <div class="content">
+         <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+        <p class="Menuname">Delicious Food</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, culpa numquam, consectetur
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, culpa numquam, consectetur </p>
+        <div class="priceinfo"><a href="#">Add to cart</a><span>$15.99</span></div>
+      </div>
+    </div>
+    <!-- for 4  -->
+
+     <!-- for 5  -->
+     <div class="Menuitems">
+      <div class="Menuinfo">
+        <i class="fa-solid fa-eye"></i>
+        <img src="https://img.freepik.com/premium-photo/meat-kebab-ribs-lavash-with-onions-cabbage-white-plate-isolated-white-background_217593-15671.jpg?size=626&ext=jpg">
+    
+        <div class="content">
+         <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+        <p class="Menuname">Delicious Food</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, culpa numquam, consectetur
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, culpa numquam, consectetur </p>
+        <div class="priceinfo"><a href="#">Add to cart</a><span>$15.99</span></div>
+      </div>
+    </div>
+    <!-- for 5  -->
+
+     <!-- for 6  -->
+     <div class="Menuitems">
+      <div class="Menuinfo">
+        <i class="fa-solid fa-eye"></i>
+        <img src="https://img.freepik.com/free-photo/fresh-grill-bbq-chicken_144627-7526.jpg?size=626&ext=jpg">
+    
+        <div class="content">
+         <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+        <p class="Menuname">Delicious Food</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, culpa numquam, consectetur
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, culpa numquam, consectetur </p>
+        <div class="priceinfo"><a href="#">Add to cart</a><span>$15.99</span></div>
+      </div>
+    </div>
+    <!-- for 6 -->
+
+   </div>
+
+    </div>
+</section>
+<!-- menu section  -->
+
+<!-- customer review  -->
+<section id="Review">
+  <div class="Dishes">
+    <h3 class="tittles h3">Our Menu</h3>
+    <h1 class="tittles h1">TODAY'S SPECIAL</h1>
+
+  <div class="swiper mySwiper">
+
+  <div class="swiper-wrapper review-slider">
+     <!-- for review 1  -->
+      <div class="review1 swiper-slide">
+       <!-- review  -->
+         <div class="Review">
+          <img src="https://img.freepik.com/free-photo/business-finance-employment-female-successful-entrepreneurs-concept-smiling-professional-female-office-manager-ceo-e-commerce-company-looking-pleased-camera-white-background_1258-59171.jpg?w=1060&t=st=1689478980~exp=1689479580~hmac=bdd5abd9baea1158ddb235b40d62d9c275a7782ed1a4c7d4d92e1ee5cc01740a">
+          <i class="fa-sharp fa-solid fa-quote-right"></i>
+          <!-- ///// -->
+         <div class="reviewsection">
+          <h3>Allisha</h3>
+          <!-- <div class="ReviewIcons"> -->
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          <!-- </div> -->
+         </div>
+         <!-- ///// -->
+         </div>
+         <!-- review  -->
+        <p class="reviewSection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta atque incidunt, mollitia quaerat, quas quibusdam recusandae eaque provident laborum magni dolores! Voluptates velit ipsum fugit cumque ducimus ipsa rem.</p>
+      </div>
+     <!-- for review 1  -->
+
+      <!-- for review 2  -->
+      <div class="review1 swiper-slide">
+        <!-- review  -->
+          <div class="Review">
+           <img src="https://img.freepik.com/free-photo/mand-holding-cup_1258-340.jpg?t=st=1689478980~exp=1689479580~hmac=abc7d4d08217a3e55531a45bbab1137c29810b77a5b6037bc872bcb4146a59ee">
+           <i class="fa-sharp fa-solid fa-quote-right"></i>
+           <!-- ///// -->
+          <div class="reviewsection">
+           <h3>Chirs</h3>
+           <!-- <div class="ReviewIcons"> -->
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+           <!-- </div> -->
+          </div>
+          <!-- ///// -->
+          </div>
+          <!-- review  -->
+         <p class="reviewSection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta atque incidunt, mollitia quaerat, quas quibusdam recusandae eaque provident laborum magni dolores! Voluptates velit ipsum fugit cumque ducimus ipsa rem.</p>
+       </div>
+      <!-- for review 2  -->
+
+      <!-- for review 3  -->
+      <div class="review1 swiper-slide">
+        <!-- review  -->
+          <div class="Review">
+           <img src="https://img.freepik.com/premium-photo/young-handsome-man-smiling-cheerfully-feeling-happy-pointing-side-businessman-concept_1194-296900.jpg">
+           <i class="fa-sharp fa-solid fa-quote-right"></i>
+           <!-- ///// -->
+          <div class="reviewsection">
+           <h3>James</h3>
+           <!-- <div class="ReviewIcons"> -->
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+           <!-- </div> -->
+          </div>
+          <!-- ///// -->
+          </div>
+          <!-- review  -->
+         <p class="reviewSection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta atque incidunt, mollitia quaerat, quas quibusdam recusandae eaque provident laborum magni dolores! Voluptates velit ipsum fugit cumque ducimus ipsa rem.</p>
+       </div>
+
+      <!-- for review 3  -->
+
+       <!-- for review 4  -->
+       <div class="review1 swiper-slide">
+        <!-- review  -->
+          <div class="Review">
+           <img src="https://img.freepik.com/free-photo/handsome-young-businessman-suit-standing_171337-18596.jpg?t=st=1689498248~exp=1689498848~hmac=9a37d0a7c7c4d6394c1f5515f23fe785300b184097dc2b5b302928231dfd08f4">
+           <i class="fa-sharp fa-solid fa-quote-right"></i>
+           <!-- ///// -->
+          <div class="reviewsection">
+           <h3>Fabio</h3>
+           <!-- <div class="ReviewIcons"> -->
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+           <!-- </div> -->
+          </div>
+          <!-- ///// -->
+          </div>
+          <!-- review  -->
+         <p class="reviewSection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta atque incidunt, mollitia quaerat, quas quibusdam recusandae eaque provident laborum magni dolores! Voluptates velit ipsum fugit cumque ducimus ipsa rem.</p>
+       </div>
+
+      <!-- for review 4  -->
+
+       <!-- for review 5  -->
+       <div class="review1 swiper-slide">
+        <!-- review  -->
+          <div class="Review">
+           <img src="https://img.freepik.com/free-photo/young-concentrated-businesswoman-glasses-striped-shirt-working-with-papers-home_171337-13052.jpg?t=st=1689498306~exp=1689498906~hmac=c399df658c47feeec69f792f781c251972b24a806c08fa953649016635643562">
+           <i class="fa-sharp fa-solid fa-quote-right"></i>
+           <!-- ///// -->
+          <div class="reviewsection">
+           <h3>Honney</h3>
+           <!-- <div class="ReviewIcons"> -->
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+           <!-- </div> -->
+          </div>
+          <!-- ///// -->
+          </div>
+          <!-- review  -->
+         <p class="reviewSection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta atque incidunt, mollitia quaerat, quas quibusdam recusandae eaque provident laborum magni dolores! Voluptates velit ipsum fugit cumque ducimus ipsa rem.</p>
+       </div>
+
+      <!-- for review 5  -->
+
+       <!-- for review 6  -->
+       <div class="review1 swiper-slide">
+        <!-- review  -->
+          <div class="Review">
+           <img src="https://img.freepik.com/free-photo/excited-beautiful-girl-smiling-pointing-fingers-upper-left-corner-looking-pleased-logo_1258-19008.jpg?t=st=1689457039~exp=1689457639~hmac=ead2559d8a5c2a3452887c9bc9b51eb72fc38236041d4b9128cc36bbc9b91117">
+           <i class="fa-sharp fa-solid fa-quote-right"></i>
+           <!-- ///// -->
+          <div class="reviewsection">
+           <h3>Marry</h3>
+           <!-- <div class="ReviewIcons"> -->
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+           <!-- </div> -->
+          </div>
+          <!-- ///// -->
+          </div>
+          <!-- review  -->
+         <p class="reviewSection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta atque incidunt, mollitia quaerat, quas quibusdam recusandae eaque provident laborum magni dolores! Voluptates velit ipsum fugit cumque ducimus ipsa rem.</p>
+       </div>
+
+      <!-- for review 6 -->
+
+
+     
+  </div>
+
+  </div>
+
+  </div>
+</section>
+<!-- customer review  -->
+
+<!-- order section  -->
+<section id="Order">
+<div class="Dishes">
+  <h3 class="tittles h3">Order Now</h3>
+  <h1 class="tittles h1">FREE AND FAST</h1>
+<form action="" method="" class="Orderform">
+
+<div class="Order">
+  <div class="OrderOne">
+    <div class="InputBox">
+      <div class="input">
+        <span class="label">Your Name</span>
+        <input type="text" class="name" placeholder="Enter Your Name...">
+      </div>
+  
+      <div class="input">
+        <span class="label">Your Number</span>
+        <input type="number" class="number" placeholder="Enter Your Number...">
+      </div>
+    </div>
+  
+    <div class="InputBox">
+      <div class="input">
+        <span class="label">Your Order</span>
+        <input type="text" class="name" placeholder="Enter Your Order...">
+      </div>
+  
+      <div class="input">
+        <span class="label">Addtional Food</span>
+        <input type="text" class="number" placeholder="Extra With Food">
+      </div>
+    </div>
+
+   
+   
+  </div>
+
+ <div class="OrderTwo">
+
+  <div class="InputBox">
+    <div class="input">
+      <span class="label">How Much</span>
+      <input type="text" class="name" placeholder="How Many Orders...">
+    </div>
+
+    <div class="input">
+      <span class="label">Date and Time</span>
+      <input type="datetime-local" class="number" placeholder="Extra With Food">
+    </div>
+  </div>
+
+  <div class="InputBox">
+    <div class="input">
+      <span class="label">Address</span>
+      <textarea  class="name" placeholder="Enter Your Address..."></textarea>
+    </div>
+
+    <div class="input">
+      <span class="label">Message</span>
+      <textarea  class="name" placeholder="Enter Your Message..."></textarea>
+    </div>
+  </div>
+
+  <div class="InputBox">
+    <a href="#">Order Now</a>
+  </div>
+ </div>
+
+</div>
+
+</form>
+
+</div>
+</section>
+<!-- order section  -->
+
+<!-- footer section  -->
+<footer>
+<div class="footer">
+<div class="footer1">
+  <h2>Location</h2>
+  <ul>
+    <li>india</li>
+    <li>china</li>
+    <li>singapore</li>
+    <li>thailand</li>
+  </ul>
+</div>
+<div class="footer2">
+  <h2>Quick Links</h2>
+<ul>
+  <li href="#home">Home</li>
+  <li href="#Dishes">Dishes</li>
+  <li href="#About">About</li>
+  <li href="#Menu">Menu</li>
+  <li href="#Review">Review</li>
+  <li href="#Order">Order</li>
+</ul>
+</div>
+<div class="footer3">
+  <h2>Contace Info</h2>
+  <ul>
+    <li>+123-456-789</li>
+    <li>+111-222-333</li>
+    <li>shdfa;jf;af;@gamil.com</li>
+    <li>Mumbai india -400104</li>
+  </ul>
+</div>
+<div class="footer4">
+  <h2>Follow Us</h2>
+  <ul>
+    <li>facebook</li>
+    <li>twitter</li>
+    <li>linkedin</li>
+    <li>instagram</li>
+  </ul>
+</div>
+</div>
+<div class="line"></div>
+<div class="copyright"><span>Copy Right@2023 By <span class="name">ANTT</span></span></div>
+</footer>
+
+
+<!-- footer section -->
+
+<!-- swipper js  -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<!-- custom js  -->
+<script src="./index.js">
+
+</script>
+</body>
+</html>
